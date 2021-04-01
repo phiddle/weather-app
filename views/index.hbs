@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<div class="whole">
+    <h3 className="weatherHead">Phil's Weather App</h3>
+
+    <body class="flex-contain">
+        <div class="info">
+            <P class="city">City: {{name}}</P>
+            <span>
+                <p class="tempcond">{{temp}}c</p><p class="feels_like">feels like:{{feels_like}}</p>
+            </span>
+            <span class="humcond">
+                <p>Humidity:{{humidity}} || wind speed:{{speed}}</p>
+            </span>
+            <a class="btn-style" href="/weather">What's the weather?</a>
+        </div>
+        <div class="clip">
+
+            <iframe class="clip1" width="300" height="300" src="https://www.youtube.com/embed/yrOYxLt9SCI" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <iframe class="clip2" width="300" height="300" src="https://www.youtube.com/embed/6JbU0dIq70E" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <iframe class="clip3" width="300" height="300" src="https://www.youtube.com/embed/x0Y_Y3R6WLY" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+    </body>
+</div>
+
+</html>
